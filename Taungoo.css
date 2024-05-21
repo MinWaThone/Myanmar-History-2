@@ -1,0 +1,606 @@
+body {
+    background-color: #576490;
+    color: #fff;
+    font-family: 'Cormorant Garamond';
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #576490; /* Set the background color to match the body background */
+    z-index: 1000; /* Ensure the header stays on top of other content */
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 27px;
+    margin-top: -20px;
+}
+
+body {
+    background-color: #576490;
+    color: #fff;
+    font-family: 'Cormorant Garamond';
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #576490; /* Set the background color to match the body background */
+    z-index: 1000; /* Ensure the header stays on top of other content */
+    padding-top: -10px;
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 27px;
+    margin-top: -20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: -10px;
+    margin-left: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #fff;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a{
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav ul li a:hover {
+    color: #fff;
+    
+    box-shadow: 0px 0px 20px 6px rgba(228, 11, 11, 0.5); /* Glowing effect */
+    text-decoration: underline; /* Underline text on hover */
+    text-decoration-color: white; /* Color of underline */
+    transition: 0.3s;
+    text-decoration: none;
+}
+/*nav ul li:hover{
+    background-color: #a581ff5b;
+    box-shadow: 0px 0px 400px 86px #a481ff;
+    text-decoration: underline white;
+}*/
+
+.translation {
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+}
+  /* Dropdown button */
+.translation .translationbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0 20px;
+    padding-bottom: 10px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}  
+.translationbtn:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.7s;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  /* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  /* Show the dropdown menu on hover */
+.translation:hover .dropdown-content {
+    display: block;
+}
+
+nav form {
+    margin-left: auto; /* Pushes the search form to the right */
+    display: flex;
+    align-items: center;
+    padding: 23px;
+    padding-left: 25px;
+    margin-bottom: 7px;
+}
+nav form input[type="text"] {
+    margin-left: 20px; /* Adds some space between the search icon and the input field */
+    text-align: center;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+nav form input{
+    margin-right: 30px;
+}
+nav form:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.7s;
+}
+nav form ::placeholder{
+    color: #fff;
+    font-family: 'Cormorant Garamond';
+    font-size: 16px;
+}
+
+
+
+
+
+main{
+    padding: 10px 300px;
+    margin: 0 -8px;
+    background-color: #FDFFEF;
+    color: #576490;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 4;
+    font-size: 15px;
+}
+button{
+    text-align: center;
+    background: transparent;
+    border: 1px solid #000;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px 0;
+    font-family: 'Cormorant Garamond';
+}
+button a:visited, a:link{
+    color: #000;
+    text-decoration: none;
+}
+
+section{
+    margin: 25px 10px;
+    padding:  80px 100px;
+    background-color: #FDFFEF;
+    font-size: smaller;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.red_text h1, .red_text h3{
+    padding: 5px 0;
+}
+.red_text h1{
+    font-size: 25px;
+}
+.paragraph{
+    color: #000;
+    font-size: 16px;
+}
+.OnD, .detail {
+    margin: 25px 0; /* Add margin-bottom to create space between the two divs */
+}
+.OnD p, .detail p {
+    margin: 5px 0;
+}
+
+section img{
+    width: 800px;
+    padding-bottom: 100px;
+}
+section i{
+    margin: 15px 10px;
+    font-size: large;
+}
+section .fa-heart{
+    padding-top: 10px;
+    cursor: pointer;
+    transform: transform 0.3s ease, scale 0.3s ease, color 0.3s ease;
+}
+section .fa-heart:active{
+    transform: scale(1.2);
+}
+section .fa-heart:visited{
+    font-weight: bold;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+i.fa-heart{
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+i.fa-heart:hover{
+    color: #576490;
+}
+.fa-regular.fa-heart:hover::before {
+    content: "\f004"; /* Unicode for solid heart icon */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900; /* Ensures the solid version is used */
+}
+
+.option2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.flex_container{
+    padding: 20px 0;
+    display: flex;
+    gap: 20px; /* Reduced gap */
+}
+.bagan, .konbaung{
+    background: transparent;
+    max-width: 50%;
+    padding: 0 20px; /* Reduced padding */
+}
+.img, .img2{
+    padding-bottom: 200px;
+    width: 440px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: none;
+    position: relative;
+}
+.img{
+    height: 300px;
+}
+.img2{
+    padding-bottom: 175px;
+}
+.img a, .img2 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.img img, .img2 img{
+    width: 100%;
+    height: 338px;
+    object-fit: cover;
+}
+
+.desc1, .desc2{
+    padding: 20px;
+    margin-top: -230px;
+    position: relative;
+    background-color: none;
+    max-width: 400px;
+}
+.desc1{
+    padding-top: 70px;
+}
+.desc2{
+    padding-top: 50px;
+}
+.desc1 hr, .desc2 hr{
+    margin-bottom: 20px;
+}
+.desc1 i, .desc2 i{
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    margin: 0 10px;
+    font-size: smaller;
+}
+
+
+
+.desc{
+    margin: 50px 0;
+    padding: 10px 80px;
+    width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+.desc form {
+    width: 300px;
+    transition: width 0.3s ease-in-out;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+/* Style for the comment box */
+.desc textarea {
+    padding: 10px;
+    min-height: 50px; /* Set the minimum height */
+    transition: min-height 0.3s ease; /* Add transition effect */
+}
+/* Increase the height when the textarea is focused */
+.desc textarea:focus {
+    min-height: 100px; /* Set the expanded height */
+}
+/* Style for the comment box */
+.comment-box {
+    position: relative; /* Make it relative to allow positioning of the icons */
+}
+/* Style for the comment icons */
+.comment-icons {
+    display: none;
+
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    right: 190px; /* Adjust as needed */
+}
+.comment-icons i {
+    font-size: 20px;
+    margin-right: 10px; /* Add spacing between icons */
+    color: #576490; /* Adjust icon color */
+    cursor: pointer;
+}
+/* Show the icons when the comment box is focused */
+textarea:focus + .comment-icons,
+textarea:focus + .comment-icons + .submit-button{
+    display: block;
+}
+/* Style for the submit button */
+.submit-button {
+    display: none;
+    position: absolute;
+    right: -475px;
+
+    border: 1px solid #576490;
+    background-color: #576490; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color: #FDFFEF;
+    border: 1px solid #576490;
+    color: #576490;
+    border: 1px solid #576490;
+    transition: background-color 0.3s;
+}
+.contact{
+    background-color: #FDFFEF;
+    color: #576490;
+    
+    padding: 70px;
+
+    margin: 0 -8px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact h2{
+    font-size: 40px;
+}
+
+.num{
+    font-size: 25px;
+}
+.location{
+    font-size: 30px;
+}
+
+.container{
+    position: relative;
+}
+.container h1{
+    font-size: 50px;
+}
+
+.contact form input {
+    border: none; /* Remove default border */
+    border-bottom: 1px solid #576490; /* Add bottom border */
+    background: transparent;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: background-color 0.3s; /* Add transition for smooth effect */
+}
+.contact form input:hover {
+    background-color: rgba(0, 104, 208, 0.1);
+}
+.contact form input:focus {
+    outline: none; /* Remove outline on focus */
+}
+.contact form input:not(:focus) {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.contact button{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid #576490;
+    background-color: #576490;
+    color: #fff;
+    font-family: 'Cormorant Garamond';
+}
+.contact button:hover{
+    background-color: #FDFFEF;
+    border: 1px solid #576490;
+    color: #576490;
+    border: 1px solid #576490;
+    transition: background-color 0.3s;
+}
+footer{
+    text-align: center;
+}
+/* Responsive Design for max-width 480px */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #576490;
+        color: #fff;
+        font-family: 'Cormorant Garamond';
+        margin: 0;
+        overflow-x: hidden;
+    }
+    
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    nav ul li {
+        margin-right: 20px;
+        color: #fff;
+    }
+    nav ul li:last-child {
+        margin-right: 0;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    nav form {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    nav form input[type="text"] {
+        margin-left: 10px;
+        text-align: center;
+        background: transparent;
+        border: none;
+        color: #fff;
+    }
+    nav form input {
+        margin-right: 10px;
+    }
+    nav form:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        transition: background-color 0.7s;
+    }
+    nav form ::placeholder {
+        color: #fff;
+        font-family: 'Cormorant Garamond';
+        font-size: 16px;
+    }
+
+    .translation {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .map{
+        width: 100%;
+    }
+
+    main {
+        padding: 10px 0; /* Reduce padding for smaller screens */
+    }
+
+    .option, .option2, .flex_container {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .flex_container {
+        gap: 10px; /* Adjust gap */
+    }
+
+    .desc {
+        padding: 10px; /* Adjust padding */
+    }
+
+    .desc form {
+        width: 100%; /* Ensure full width for forms */
+        padding: 10px; /* Adjust padding */
+    }
+     
+    main {
+        padding: 10px;
+    }
+ 
+    section {
+        padding: 20px;
+        margin: 10px 0;
+    }
+ 
+    .option, .option2, .comment {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+ 
+    .option button, .option2 button, .comment button {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .desc1, .desc2 {
+        font-size: 13px;
+         margin-bottom: 300%;
+     }
+     .comment-box{
+        margin-right: 30%;
+     }
+     .contact {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contact form input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contact button {
+        width: 100%;
+        padding: 10px;
+    }
+    }
+
+
+
+
+
+

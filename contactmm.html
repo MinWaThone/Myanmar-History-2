@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>မြန်မာ့သမိုင်း</title>
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <script src="http://kit.fontawesome.com/c25cabee86.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>မြန်မာ့သမိုင်း</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="indexmm.html">အိမ်</a></li>
+                <li><a href="aboutusmm.html">ကျွန်ပ်တို့အကြောင်း</a></li>
+                <li><a href="timelinemm.html">အလံများ</a></li>
+                <li><a href="servicesmm.html">ဝန်ဆောင်မှုများ</a></li>
+                <li><a href="contactmm.html">ဆက်သွယ်ရန်</a></li>
+            </ul>
+
+            <div class="translation">
+                <button class="translationbtn">
+                    <i class="fa-solid fa-globe"></i>
+                    ဘာသာပြန်
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="contact.html">အင်္ဂလိပ်</a>
+                    <a href="contactmm.html">မြန်မာ</a>
+                </div>
+            </div>
+
+            <form action="/search" method="GET">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="searchInput" name="q" placeholder="Search...">
+            </form>
+        </nav>
+    </header>
+
+
+    <section>
+        <img src="Images/background 2.webp" alt="background">
+        <div class="intro">
+            <h1>ဆက်သွယ်ရန်</h1>
+            <h4>This is your Contact section paragraph. Encourage your reader to reach out with any questions or comments.</h4>
+
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+
+        <div class="details">
+            <div class="contact-details">
+                <h1>ဆက်သွယ်ရန်အသေးစိတ်</h1>
+                <h5 class="address">မန္တလေး၊ မြန်မာ (ဗမာ). </h5>
+                <h5 class="phone">၁၂၃-၄၅၆-၇၈၉၀</h5>
+                <h5 class="email">luminescent4@mysite.com</h5>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="name-email">
+                        <div class="input-group">
+                            <h5>နာမည်</h5>
+                            <input type="text" name="Name">
+                        </div>
+                        <div class="input-group">
+                            <h5>အီးမေးလ်*</h5>
+                            <input type="email" name="email">
+                        </div>
+                    </div>
+                    <h5>မက်ဆေ့ချ်</h5>
+                    <textarea name="message"></textarea>
+                    <button type="submit">ပို့ပါ</button>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <div class="contact">
+        <h2 class="h2">မြန်မာ့သမိုင်း</h2>
+
+        <div class="description">
+            <div class="num">
+                <h6>၁၂၃-၄၅၆-၇၈၉၀</h6>
+                <h6>luminescent4@gmail.com</h6>
+            </div>
+            <div class="location">
+                <h6>မန္တလေး၊ မြန်မာ (ဗမာ)၊</h6>
+            </div>
+    
+            <div class="container">
+                <h1>အသိပေးပါ၊ ကျွန်ုပ်တို့၏သတင်းလွှာတွင်ပါဝင်ပါ။</h1>
+    
+                <h4>သင့်အီးမေးလ်ကို ဤနေရာတွင် ထည့်ပါ *</h4>
+    
+                <form action="/submit_email" method="POST">
+                    <input type="email" id="email" name="email">
+                    <button type="submit">ပေးပို့ရန်</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; The Luminescent Four မှ ဖန်တီးထားသော 2024 မြန်မာ့သမိုင်း</p>
+    </footer>
+</body>
+</html>
